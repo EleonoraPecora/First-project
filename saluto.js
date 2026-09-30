@@ -12,3 +12,11 @@ function calcolaEtà(annoDiNascita) {
 const etàDiEleonora = calcolaEtà(1998);
 console.log("L'età di Eleonora è: " + etàDiEleonora);
 
+// crea una funziona che controlla se un numero è pari o dispari
+function ePari(numero) {
+    if (numero % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+    console.log("il numero 4 è pari: " + ePari(4));
